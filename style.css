@@ -20,6 +20,10 @@ p{
   line-height: 24px;
 }
 
+.p-l{
+  font-size: 20px;
+}
+
 a{
   color: #032F61;
   text-decoration: none;
@@ -43,7 +47,7 @@ a{
 .tab-list button{
   display: inline-block;
   list-style-type: none;
-  min-width: 160px;
+  width: 160px;
   height: 58px;
   line-height: 58px;
   text-align: center;
@@ -68,4 +72,15 @@ a{
 
 .tab-panel.active{
   display: block;
+}
+
+/***** Responsive *****/
+
+@media only screen and (max-width: 576px){
+
+  .tab-list button{
+    width: 100%;
+    display: block;
+  }
+
 }
