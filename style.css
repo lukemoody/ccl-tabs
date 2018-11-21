@@ -1,0 +1,67 @@
+/***** Fonts *****/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/***** Global *****/
+
+html{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+body{
+  background-color: #F3F4F5;
+}
+
+/***** Typography *****/
+
+p{
+  color: #032F61;
+  line-height: 24px;
+}
+
+a{
+  color: #032F61;
+  text-decoration: none;
+}
+
+/***** Tabs *****/
+
+.tab-container{
+  display: block;
+  max-width: 994px;
+  margin: 0 auto;
+  background-color: #F3F4F5;
+}
+
+.tab-list{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.tab-list li{
+  display: inline-block;
+  list-style-type: none;
+  min-width: 160px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  /* float: left; */
+  background-color: #E2E8EB;
+}
+
+.tab-list li.active{
+  border-top: 4px solid #06A7A9;
+  background-color: #fff;
+}
+
+.tab-panel{
+  display: none;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.tab-panel.active{
+  display: block;
+}
